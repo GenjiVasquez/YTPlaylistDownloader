@@ -58,7 +58,7 @@ jobs:
     env:
       Solution_Name: YTPlaylistDownloader                         # Replace with your solution name, i.e. MyWpfApp.sln.
       Wap_Project_Directory: YTPlaylistDownloader    # Replace with the Wap project directory relative to the solution, i.e. MyWpfApp.Package.
-      Wap_Project_Path: YTPlaylistDownloader\YTPlaylistDownloader.wapproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
+      Wap_Project_Path: YTPlaylistDownloader\YTPlaylistDownloader.csproj                   # Replace with the path to your Wap project, i.e. MyWpf.App.Package\MyWpfApp.Package.wapproj.
 
     steps:
     - name: Checkout
