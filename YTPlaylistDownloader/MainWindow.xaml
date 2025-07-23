@@ -1,0 +1,54 @@
+﻿<Window x:Class="YTPlaylistDownloader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YTPlaylistDownloader"
+        mc:Ignorable="d"
+        Title="YouTube Playlist Downloader" Height="450" Width="800">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="YouTube Playlist URL:" VerticalAlignment="Center"/>
+        <TextBox x:Name="PlaylistUrlTextBox" Grid.Row="1" Margin="0,5,0,10" Height="28"/>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Download Mode:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <ComboBox x:Name="ModeComboBox" Width="180" SelectedIndex="0">
+                <ComboBoxItem>Audio &amp; Video</ComboBoxItem>
+                <ComboBoxItem>Audio Only</ComboBoxItem>
+                <ComboBoxItem>Video Only</ComboBoxItem>
+            </ComboBox>
+            <Button x:Name="DownloadButton" Content="Download" Width="100" Margin="20,0,0,0" Click="DownloadButton_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Download Folder:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <TextBox x:Name="FolderPathTextBox" Width="400" IsReadOnly="True"/>
+            <Button x:Name="ChooseFolderButton" Content="Choose Folder" Width="120" Margin="10,0,0,0" Click="ChooseFolderButton_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Concurrent Downloads:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <Slider x:Name="ConcurrencySlider" Minimum="1" Maximum="12" Value="3" Width="120" TickFrequency="1" IsSnapToTickEnabled="True"/>
+            <TextBlock Margin="10,0,0,0" VerticalAlignment="Center">
+                <TextBlock.Text>
+                    <Binding ElementName="ConcurrencySlider" Path="Value" StringFormat="F0"/>
+                </TextBlock.Text>
+            </TextBlock>
+        </StackPanel>
+
+        <ProgressBar x:Name="DownloadProgressBar" Grid.Row="5" Height="20" Minimum="0" Maximum="100" Margin="0,0,0,10"/>
+        <ListBox x:Name="StatusListBox" Grid.Row="6"/>
+    </Grid>
+</Window>
