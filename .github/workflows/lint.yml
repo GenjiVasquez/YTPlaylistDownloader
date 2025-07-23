@@ -22,6 +22,6 @@ jobs:
         run: dotnet restore
 
       - name: Lint with zyaction
-        uses: zyio/zyaction@v1
+        uses: zyactions/dotnet-lint@v1
         with:
           linter: dotnet
