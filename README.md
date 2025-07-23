@@ -1,5 +1,8 @@
 # YouTube Playlist Downloader (WPF, .NET 8)
 
+<img width="786" height="443" alt="image" src="https://github.com/user-attachments/assets/74670424-212f-40db-8dce-6f2f641dfa50" />
+
+
 A modern WPF application for downloading YouTube playlists with support for:
 - Audio & Video, Audio Only, or Video Only download modes
 - User-selectable download folder
