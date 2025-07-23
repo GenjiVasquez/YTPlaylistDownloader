@@ -3,7 +3,7 @@
 A modern WPF application for downloading YouTube playlists with support for:
 - Audio & Video, Audio Only, or Video Only download modes
 - User-selectable download folder
-- Multi-threaded downloads (choose 1�12 concurrent downloads)
+- Multi-threaded downloads (choose 1 - 12 concurrent downloads)
 - Progress and status display
 
 ## Features
@@ -28,7 +28,7 @@ A modern WPF application for downloading YouTube playlists with support for:
 1. Enter a YouTube playlist URL.
 2. Select the download mode (Audio & Video, Audio Only, Video Only).
 3. Choose the download folder (optional).
-4. Set the number of concurrent downloads (1�12).
+4. Set the number of concurrent downloads (1 - 12).
 5. Click **Download**.
 6. Monitor progress and status in the app.
 
