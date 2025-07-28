@@ -29,7 +29,13 @@
                 <ComboBoxItem>Audio Only</ComboBoxItem>
                 <ComboBoxItem>Video Only</ComboBoxItem>
             </ComboBox>
-            <Button x:Name="DownloadButton" Content="Download" Width="100" Margin="20,0,0,0" Click="DownloadButton_Click"/>
+            <Button x:Name="DownloadButton"
+        Content="Download"
+        Width="100"
+        Margin="20,0,0,0"
+        Click="DownloadButton_Click"
+        Background="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+        Foreground="White"/>
         </StackPanel>
 
         <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,0,0,10">

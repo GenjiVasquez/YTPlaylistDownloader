@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:YTPlaylistDownloader"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!-- Removido recurso inválido SystemAccentColor -->
     </Application.Resources>
 </Application>
