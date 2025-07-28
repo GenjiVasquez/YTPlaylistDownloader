@@ -1,0 +1,27 @@
+name: Lint .NET Code
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x' # Adjust to match your project's .NET version
+
+      - name: Restore dependencies
+        run: dotnet restore
+
+      - name: Lint with zyaction
+        uses: zyactions/dotnet-lint@v1
+        with:
+          linter: dotnet
